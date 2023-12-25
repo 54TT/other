@@ -1,0 +1,236 @@
+.box{
+    background-color:#151823;
+    overflow: hidden;
+    position: relative;
+    padding-bottom: 30px;
+}
+.top{
+    width: 80%;
+    margin: 60px auto 0;
+    border-radius: 20px;
+    background-color: rgb(77,68,59);
+    padding: 10px 20px 10px 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.topLeft{
+    display: flex;
+    align-items: center;
+}
+.topLeftSpan{
+    font-size: 20px;
+    margin-left: 10px;
+    color: white;
+}
+.topRight{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    width: 38%;
+    min-width: 300px;
+    justify-content: space-between;
+    color: white;
+}
+.topRight li{
+    cursor: pointer;
+}
+.back{
+    opacity: 0.16;
+    background: radial-gradient(43.57% 28.42% at 57.85% 43.52%, rgba(255, 184, 0, 0.71) 0%, rgba(248, 183, 17, 0.43) 45.83%, rgba(243, 183, 29, 0.29) 63.54%, rgba(229, 183, 63, 0.00) 100%);
+}
+.aa{
+    width: 200px;
+    height: 600px;
+    position: absolute;
+    top: -7%;
+    right: -3%;
+}
+.cc{
+    width: 500px;
+    position: absolute;
+    top: -30%;
+    right: -5%;
+    height: 600px;
+}
+.dd{
+    width: 500px;
+    position: absolute;
+    bottom: -12%;
+    left: -12%;
+    height: 600px;
+}
+.ee{
+    width: 500px;
+    position: absolute;
+    top: -60%;
+    left: -30%;
+    height: 600px;
+}
+.brc{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    padding-bottom: 30px;
+}
+.bb{
+    width: 200px;
+    height: 700px;
+    position: absolute;
+    top: -10%;
+    left: -3%;
+}
+.brcCenter{
+    width: 70%;
+    display: inline-block;
+    z-index: 10;
+    margin-top: 50px;
+}
+.brcP{
+    color: white;
+    font-size: 20px;
+    line-height: 2.3;
+    text-align: center;
+}
+.show{
+    width: 80%;
+    display: flex;
+    align-items: center;margin: 10px auto 0;
+    justify-content: space-between;
+}
+.show div{
+    background-color: rgb(134,111,84);
+    padding: 20px;
+    border-radius: 10px;
+    width: 30%;
+}
+.show div p{
+    line-height: 1;
+    color: white;
+}
+.show div p:first-child{
+    margin-bottom: 20px;
+}
+.show div p:last-child{
+    font-size: 22px;
+}
+.center{
+    width: 80%;
+    background-color: rgb(77,68,59);
+    border-radius: 10px;
+    height: 200px;
+    margin: 35px auto;
+}
+.road{
+    margin: 0px auto;
+    width: 80%;
+    position: relative;
+    border-radius: 10px;
+    background-color: rgb(26,29,39);
+    padding: 20px;
+}
+.road>div:nth-child(2){
+    margin: 20px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.road>div:nth-child(2) span:first-child{
+    color: white;
+    font-size: 22px;
+}
+.road>div:nth-child(2) span:last-child {
+    color: #5F6168;
+}
+.road ul{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    position: relative;
+    justify-content: space-between;
+}
+.road ul  li{
+    width: 23%;
+    padding: 20px;
+    border-radius: 10px;
+}
+.road ul  li div:first-child{
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    position: relative;
+    line-height: 1;
+}
+.road ul>div{
+    position: absolute;
+    left: 30px;
+    width:77%;
+    top: 30px;
+    height: 1px;
+    border: 1px dashed rgb(77,68,59);
+}
+.road ul  li div:first-child p{
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+.borderColoF4{
+    border: 1px solid #F4C142;
+}
+.backColoF4{
+    background-color: #F4C142;
+}
+.borderColoRg{
+    border: 1px solid  rgb(49,52,61);
+}
+.backColoRg{
+    background-color: rgb(49,52,61);
+}
+.about{
+    margin-left: 10%;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.about >div:first-child{
+    width: 60%;
+    display: flex;
+    justify-content: space-between;
+}
+.about >div >div{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
+.about >div >div>p:first-child{
+    font-size: 19px;
+    color: white;
+}
+.about >div >div>p:last-child {
+    border: 1px solid rgb(244,193,66);
+    padding: 10px 50px;
+    border-radius: 10px;
+    color: white;
+}
+.get{
+    width: 80%;
+    margin: 35px auto;
+}
+.get>p{
+    color:white;
+    margin-bottom: 20px;
+    text-align: center;
+}
+.get>div{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
