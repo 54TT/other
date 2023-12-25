@@ -9,8 +9,8 @@
     "export": "next build && next export"
   },
   "dependencies": {
-    "@babel/preset-env": "^7.23.6",
     "@babel/preset-react": "^7.23.3",
+    "@babel/preset-env": "^7.23.3",
     "antd": "^5.12.5",
     "copy-to-clipboard": "^3.3.3",
     "dayjs": "^1.11.10",
